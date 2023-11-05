@@ -5,4 +5,3 @@ RUN npm install
 COPY ./nodedocker_app/ /usr/src/app/
 EXPOSE 8888
 CMD [ "node", "app.js" ]
-
